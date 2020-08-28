@@ -73,7 +73,8 @@ h1{
     background-color:  hsl(248, 32%, 49%);
     color: #ffffff;
     border-radius: 7px;
-    box-shadow: 0px 4px 3px hsl(240, 1%, 30%);
+    /* box-shadow: 0px 4px 3px hsl(240, 1%, 30%); */
+    filter: drop-shadow(0px 6px 3px hsl(240, 1%, 30%));
     width: 460px;
     height: 45px;
     margin-top: 70px;    
@@ -94,7 +95,7 @@ h1{
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 425px){
     section{
         text-align: center;
         flex-direction: column;
@@ -171,11 +172,11 @@ input{
 }
 
 
-@media only screen and (max-width:768px) and (min-width: 376px){
+@media only screen and (max-width:768px) and (min-width: 426px){
     section{
         text-align: center;
         flex-direction: column;
-        height: 100vh;
+        height: 130vh;
         background-image: url(../images/bg-intro-mobile.png);
     }
 
@@ -187,7 +188,7 @@ input{
         width: 570px;
         height: auto;
         margin: auto;
-        padding: 40px 10px 25px 10px;
+        padding: 30px 10px 25px 10px;
     }
 
     .info{
